@@ -7,6 +7,9 @@ apt install net-tools -y
 apt update -y
 apt install nmap -y
 
+## install git
+echo "==> installing Git"
+apt install git -y
 
 ## install ubuntu-desktop gnome
 echo "==> Installing ubuntu-desktop gnome "
@@ -19,3 +22,7 @@ echo "==> Installing xrdp"
 apt update -y
 apt install xrdp -y
 
+## get HELK
+echo "==> Getting HELK"
+sudo cd ~/opt
+sudo git clone https://github.com/jessefmoore/HELK
